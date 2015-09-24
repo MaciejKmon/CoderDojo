@@ -1,9 +1,43 @@
+#container {
+    background-color: darkmagenta;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    overflow: auto;
 
+}
+#content {
+    width: 70%;
+    background-color: aqua;
+    float: left;
+    display: block;
 
-
+}
+#sidebar {
+    width: 30%;
+    background-color: burlywood;
+    float: left;
+    height: auto;
+}
+#main {
+    /*height: auto;*/
+}
 img {
 
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+    overflow: auto;
+}
+
+footer {
+    background-color: red;
+    clear: both;
+    text-align: center;
 }
