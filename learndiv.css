@@ -1,7 +1,15 @@
+/*
+    This is CSS file. Here we will style our page
+    using CSS rules. And this is how we comment in
+    CSS.
+*/
+
+/* We refer to elements with class called outer (. means select class) */
 .outer {
     background-color: blue;
 }
 
+/* We refer to element with id inner (# means select id) */
 #inner {
     background-color: yellow;
 }
